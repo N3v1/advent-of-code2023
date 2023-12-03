@@ -9,18 +9,26 @@
 /* Begin PBXBuildFile section */
 		38F9EF762B1B280D008B8D66 /* AOC_2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9EF752B1B280D008B8D66 /* AOC_2023App.swift */; };
 		38F9EF782B1B280D008B8D66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9EF772B1B280D008B8D66 /* ContentView.swift */; };
-		38F9EF7A2B1B280D008B8D66 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9EF792B1B280D008B8D66 /* Item.swift */; };
 		38F9EF7C2B1B280E008B8D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F9EF7B2B1B280E008B8D66 /* Assets.xcassets */; };
 		38F9EF7F2B1B280E008B8D66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F9EF7E2B1B280E008B8D66 /* Preview Assets.xcassets */; };
+		38F9EF942B1B29EB008B8D66 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9EF932B1B29EB008B8D66 /* Menu.swift */; };
+		38F9EF962B1B2A0E008B8D66 /* DayOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9EF952B1B2A0E008B8D66 /* DayOneView.swift */; };
+		38F9EF982B1B2A7E008B8D66 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9EF972B1B2A7E008B8D66 /* HomeView.swift */; };
+		38F9EF9B2B1B2AF4008B8D66 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9EF9A2B1B2AF4008B8D66 /* TabView.swift */; };
+		38F9EF9E2B1B2B4D008B8D66 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F9EF9D2B1B2B4D008B8D66 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38F9EF722B1B280D008B8D66 /* AOC-2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AOC-2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F9EF752B1B280D008B8D66 /* AOC_2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOC_2023App.swift; sourceTree = "<group>"; };
 		38F9EF772B1B280D008B8D66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		38F9EF792B1B280D008B8D66 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		38F9EF7B2B1B280E008B8D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F9EF7E2B1B280E008B8D66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38F9EF932B1B29EB008B8D66 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		38F9EF952B1B2A0E008B8D66 /* DayOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOneView.swift; sourceTree = "<group>"; };
+		38F9EF972B1B2A7E008B8D66 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		38F9EF9A2B1B2AF4008B8D66 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		38F9EF9D2B1B2B4D008B8D66 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +61,9 @@
 		38F9EF742B1B280D008B8D66 /* AOC-2023 */ = {
 			isa = PBXGroup;
 			children = (
-				38F9EF752B1B280D008B8D66 /* AOC_2023App.swift */,
-				38F9EF772B1B280D008B8D66 /* ContentView.swift */,
-				38F9EF792B1B280D008B8D66 /* Item.swift */,
-				38F9EF7B2B1B280E008B8D66 /* Assets.xcassets */,
+				38F9EF852B1B2915008B8D66 /* App */,
+				38F9EF872B1B2924008B8D66 /* Resources */,
+				38F9EF862B1B291F008B8D66 /* Core */,
 				38F9EF7D2B1B280E008B8D66 /* Preview Content */,
 			);
 			path = "AOC-2023";
@@ -68,6 +75,139 @@
 				38F9EF7E2B1B280E008B8D66 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38F9EF852B1B2915008B8D66 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				38F9EF752B1B280D008B8D66 /* AOC_2023App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		38F9EF862B1B291F008B8D66 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				38F9EF9C2B1B2B43008B8D66 /* Search */,
+				38F9EF882B1B2930008B8D66 /* Home */,
+				38F9EF902B1B2958008B8D66 /* Root */,
+				38F9EF8F2B1B2952008B8D66 /* Day 7 */,
+				38F9EF8E2B1B294D008B8D66 /* Day 6 */,
+				38F9EF8D2B1B2948008B8D66 /* Day 5 */,
+				38F9EF8C2B1B2944008B8D66 /* Day 4 */,
+				38F9EF8B2B1B293F008B8D66 /* Day 3 */,
+				38F9EF8A2B1B2939008B8D66 /* Day 2 */,
+				38F9EF892B1B2934008B8D66 /* Day 1 */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		38F9EF872B1B2924008B8D66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38F9EF7B2B1B280E008B8D66 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38F9EF882B1B2930008B8D66 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				38F9EF992B1B2ADF008B8D66 /* TabBar */,
+				38F9EF922B1B29CF008B8D66 /* Model */,
+				38F9EF912B1B29CA008B8D66 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		38F9EF892B1B2934008B8D66 /* Day 1 */ = {
+			isa = PBXGroup;
+			children = (
+				38F9EF952B1B2A0E008B8D66 /* DayOneView.swift */,
+			);
+			path = "Day 1";
+			sourceTree = "<group>";
+		};
+		38F9EF8A2B1B2939008B8D66 /* Day 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Day 2";
+			sourceTree = "<group>";
+		};
+		38F9EF8B2B1B293F008B8D66 /* Day 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Day 3";
+			sourceTree = "<group>";
+		};
+		38F9EF8C2B1B2944008B8D66 /* Day 4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Day 4";
+			sourceTree = "<group>";
+		};
+		38F9EF8D2B1B2948008B8D66 /* Day 5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Day 5";
+			sourceTree = "<group>";
+		};
+		38F9EF8E2B1B294D008B8D66 /* Day 6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Day 6";
+			sourceTree = "<group>";
+		};
+		38F9EF8F2B1B2952008B8D66 /* Day 7 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Day 7";
+			sourceTree = "<group>";
+		};
+		38F9EF902B1B2958008B8D66 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				38F9EF772B1B280D008B8D66 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		38F9EF912B1B29CA008B8D66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38F9EF972B1B2A7E008B8D66 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38F9EF922B1B29CF008B8D66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38F9EF932B1B29EB008B8D66 /* Menu.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38F9EF992B1B2ADF008B8D66 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				38F9EF9A2B1B2AF4008B8D66 /* TabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		38F9EF9C2B1B2B43008B8D66 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				38F9EF9D2B1B2B4D008B8D66 /* SearchView.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F9EF942B1B29EB008B8D66 /* Menu.swift in Sources */,
 				38F9EF782B1B280D008B8D66 /* ContentView.swift in Sources */,
-				38F9EF7A2B1B280D008B8D66 /* Item.swift in Sources */,
 				38F9EF762B1B280D008B8D66 /* AOC_2023App.swift in Sources */,
+				38F9EF9E2B1B2B4D008B8D66 /* SearchView.swift in Sources */,
+				38F9EF982B1B2A7E008B8D66 /* HomeView.swift in Sources */,
+				38F9EF9B2B1B2AF4008B8D66 /* TabView.swift in Sources */,
+				38F9EF962B1B2A0E008B8D66 /* DayOneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
